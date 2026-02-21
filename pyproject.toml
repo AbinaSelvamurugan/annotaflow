@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "annotaflow"
+version = "0.1.0"
+description = "Auditable text annotation QA and dataset cleaning"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+  "pandas==2.2.3", "numpy==2.3.5", "scikit-learn==1.8.0",
+  "pydantic==2.13.5", "PyYAML==6.0.3", "requests==2.32.5",
+  "matplotlib==3.10.8",
+]
+[project.optional-dependencies]
+dashboard = ["streamlit==1.50.0"]
+sdk = ["label-studio-sdk==2.1.2"]
+dev = ["pytest==9.0.2", "ruff==0.13.3"]
+parquet = ["pyarrow==21.0.0"]
+[project.scripts]
+annotaflow = "annotaflow.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["live: requires externally running Label Studio and real credentials"]
+[tool.ruff]
+line-length = 100
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

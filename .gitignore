@@ -1,0 +1,31 @@
+# Local credentials and runtime settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments, caches and builds
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+*.pyc
+build/
+dist/
+.coverage
+htmlcov/
+
+# Real annotation source data and generated run outputs can be private.
+# The bundled synthetic example is intentionally retained under data/examples/.
+results/*
+!results/README.md
+*.db
+*.sqlite
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/

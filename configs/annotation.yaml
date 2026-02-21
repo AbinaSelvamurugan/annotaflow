@@ -1,0 +1,15 @@
+version: sentiment-v1
+project_title: AnnotaFlow | Text sentiment v1
+labels:
+  - Positive
+  - Negative
+  - Neutral
+label_descriptions:
+  Positive: Clear favorable evaluation or satisfaction expressed by the author.
+  Negative: Clear unfavorable evaluation or dissatisfaction expressed by the author.
+  Neutral: Factual or mixed statement with no dominant positive/negative evaluation.
+result_from_name: sentiment
+result_to_name: text
+require_two_annotators: true
+# Specify the two Label Studio annotator user IDs on the analyze command.
+# Values are empty by default; agreement metrics are not computed until both IDs are supplied.

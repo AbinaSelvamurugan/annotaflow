@@ -1,0 +1,15 @@
+path: data/examples/synthetic_unlabeled.csv
+format: auto
+encoding: utf-8
+columns:
+  id: record_id
+  text: text
+  label: existing_label
+  source: source
+  category: category
+required: [text]
+allowed_sources: []
+allowed_categories: [feedback, support]
+auto_generate_ids: true
+min_text_chars: 3
+version: demo-synthetic-v1

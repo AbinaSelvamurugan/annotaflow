@@ -1,0 +1,6 @@
+normalize_whitespace: true
+label_aliases: {}
+duplicate_key: [text]
+duplicate_policy: exclude_identical
+exclude_invalid: true
+exclude_unresolved: false

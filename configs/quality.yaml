@@ -1,0 +1,6 @@
+near_duplicates: true
+near_duplicate_threshold: 0.90
+near_duplicate_max_rows: 3000
+ci_bootstrap_iterations: 0
+review_group_agreement_below: 0.65
+min_group_pairs: 10
