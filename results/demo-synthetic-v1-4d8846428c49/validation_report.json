@@ -1,0 +1,18 @@
+{
+  "duplicate_id_count": 0,
+  "duplicate_record_count": 0,
+  "errors": [],
+  "input_rows": 6,
+  "invalid_record_count": 0,
+  "invalid_rows": 0,
+  "issue_counts": {},
+  "malformed_lines": [],
+  "missing_values": {
+    "existing_label": 6
+  },
+  "parsed_rows": 6,
+  "recommended_actions": [],
+  "unknown_label_count": 0,
+  "valid_rows": 6,
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "category_distribution": {
+    "feedback": 3,
+    "support": 3
+  },
+  "class_imbalance_max_min": null,
+  "empty_text_count": 0,
+  "encoding_anomaly_record_ids": [],
+  "exact_duplicate_extra_rows": 0,
+  "exact_duplicate_groups": 0,
+  "existing_annotation_completeness": 0.0,
+  "label_distribution": {},
+  "near_duplicate_candidates": [],
+  "rows": 6,
+  "source_columns": [
+    "category",
+    "existing_label",
+    "record_id",
+    "source",
+    "text"
+  ],
+  "source_distribution": {
+    "synthetic-fixture": 6
+  },
+  "text_length": {
+    "max": 37,
+    "median": 32.0,
+    "min": 23,
+    "p95": 36.25
+  },
+  "valid_rows": 6
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "category": "feedback",
+    "existing_label": null,
+    "issues": [],
+    "original": {
+      "category": "feedback",
+      "existing_label": "",
+      "record_id": "s001",
+      "source": "synthetic-fixture",
+      "text": "The update was helpful."
+    },
+    "record_id": "s001",
+    "source": "synthetic-fixture",
+    "source_line": 2,
+    "text": "The update was helpful.",
+    "valid": true
+  },
+  {
+    "category": "support",
+    "existing_label": null,
+    "issues": [],
+    "original": {
+      "category": "support",
+      "existing_label": "",
+      "record_id": "s002",
+      "source": "synthetic-fixture",
+      "text": "I cannot open the page."
+    },
+    "record_id": "s002",
+    "source": "synthetic-fixture",
+    "source_line": 3,
+    "text": "I cannot open the page.",
+    "valid": true
+  },
+  {
+    "category": "feedback",
+    "existing_label": null,
+    "issues": [],
+    "original": {
+      "category": "feedback",
+      "existing_label": "",
+      "record_id": "s003",
+      "source": "synthetic-fixture",
+      "text": "The meeting is scheduled for Tuesday."
+    },
+    "record_id": "s003",
+    "source": "synthetic-fixture",
+    "source_line": 4,
+    "text": "The meeting is scheduled for Tuesday.",
+    "valid": true
+  },
+  {
+    "category": "support",
+    "existing_label": null,
+    "issues": [],
+    "original": {
+      "category": "support",
+      "existing_label": "",
+      "record_id": "s004",
+      "source": "synthetic-fixture",
+      "text": "The response was quick and clear."
+    },
+    "record_id": "s004",
+    "source": "synthetic-fixture",
+    "source_line": 5,
+    "text": "The response was quick and clear.",
+    "valid": true
+  },
+  {
+    "category": "support",
+    "existing_label": null,
+    "issues": [],
+    "original": {
+      "category": "support",
+      "existing_label": "",
+      "record_id": "s005",
+      "source": "synthetic-fixture",
+      "text": "The app crashed during sign-in."
+    },
+    "record_id": "s005",
+    "source": "synthetic-fixture",
+    "source_line": 6,
+    "text": "The app crashed during sign-in.",
+    "valid": true
+  },
+  {
+    "category": "feedback",
+    "existing_label": null,
+    "issues": [],
+    "original": {
+      "category": "feedback",
+      "existing_label": "",
+      "record_id": "s006",
+      "source": "synthetic-fixture",
+      "text": "The report contains five sections."
+    },
+    "record_id": "s006",
+    "source": "synthetic-fixture",
+    "source_line": 7,
+    "text": "The report contains five sections.",
+    "valid": true
+  }
+]

@@ -1,0 +1,3 @@
+<View><Header value="AnnotaFlow | Text sentiment v1"/><Text name="text" value="$text"/><Choices name="sentiment" toName="text" choice="single" showInLine="false"><Choice value="Positive"/>
+<Choice value="Negative"/>
+<Choice value="Neutral"/></Choices></View>

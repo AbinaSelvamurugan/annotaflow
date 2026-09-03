@@ -1,0 +1,74 @@
+[
+  {
+    "data": {
+      "source_id": "s001",
+      "text": "The update was helpful."
+    },
+    "meta": {
+      "category": "feedback",
+      "dataset_version": "demo-synthetic-v1",
+      "guideline_version": "sentiment-v1",
+      "source": "synthetic-fixture"
+    }
+  },
+  {
+    "data": {
+      "source_id": "s002",
+      "text": "I cannot open the page."
+    },
+    "meta": {
+      "category": "support",
+      "dataset_version": "demo-synthetic-v1",
+      "guideline_version": "sentiment-v1",
+      "source": "synthetic-fixture"
+    }
+  },
+  {
+    "data": {
+      "source_id": "s003",
+      "text": "The meeting is scheduled for Tuesday."
+    },
+    "meta": {
+      "category": "feedback",
+      "dataset_version": "demo-synthetic-v1",
+      "guideline_version": "sentiment-v1",
+      "source": "synthetic-fixture"
+    }
+  },
+  {
+    "data": {
+      "source_id": "s004",
+      "text": "The response was quick and clear."
+    },
+    "meta": {
+      "category": "support",
+      "dataset_version": "demo-synthetic-v1",
+      "guideline_version": "sentiment-v1",
+      "source": "synthetic-fixture"
+    }
+  },
+  {
+    "data": {
+      "source_id": "s005",
+      "text": "The app crashed during sign-in."
+    },
+    "meta": {
+      "category": "support",
+      "dataset_version": "demo-synthetic-v1",
+      "guideline_version": "sentiment-v1",
+      "source": "synthetic-fixture"
+    }
+  },
+  {
+    "data": {
+      "source_id": "s006",
+      "text": "The report contains five sections."
+    },
+    "meta": {
+      "category": "feedback",
+      "dataset_version": "demo-synthetic-v1",
+      "guideline_version": "sentiment-v1",
+      "source": "synthetic-fixture"
+    }
+  }
+]

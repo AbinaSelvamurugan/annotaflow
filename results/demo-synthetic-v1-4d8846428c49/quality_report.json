@@ -1,0 +1,86 @@
+{
+  "agreement": null,
+  "agreement_status": "Not computed",
+  "annotation": {},
+  "annotation_provenance": null,
+  "cleaning": {
+    "adjudicated": 0,
+    "agreed": 0,
+    "counts": {
+      "unresolved": 6
+    },
+    "duplicate_conflicts": 0,
+    "excluded_by_reason": {},
+    "existing_label_comparison_count": 0,
+    "final_label_revision_count": 0,
+    "final_label_revision_rate": null,
+    "missing_final_classes": [
+      "Positive",
+      "Negative",
+      "Neutral"
+    ],
+    "original_label_distribution": {},
+    "resolved_category_distribution": {},
+    "resolved_label_distribution": {}
+  },
+  "dataset_version": "demo-synthetic-v1",
+  "guideline_version": "sentiment-v1",
+  "limitations": [
+    "Annotations and provenance require independent human verification.",
+    "Pairwise kappa is not label correctness or a universal quality threshold.",
+    "No ground-truth accuracy claim is made.",
+    "Near duplicates are candidates only; unresolved examples are not training labels."
+  ],
+  "profile": {
+    "category_distribution": {
+      "feedback": 3,
+      "support": 3
+    },
+    "class_imbalance_max_min": null,
+    "empty_text_count": 0,
+    "encoding_anomaly_record_ids": [],
+    "exact_duplicate_extra_rows": 0,
+    "exact_duplicate_groups": 0,
+    "existing_annotation_completeness": 0.0,
+    "label_distribution": {},
+    "near_duplicate_candidates": [],
+    "rows": 6,
+    "source_columns": [
+      "category",
+      "existing_label",
+      "record_id",
+      "source",
+      "text"
+    ],
+    "source_distribution": {
+      "synthetic-fixture": 6
+    },
+    "text_length": {
+      "max": 37,
+      "median": 32.0,
+      "min": 23,
+      "p95": 36.25
+    },
+    "valid_rows": 6
+  },
+  "run_id": "demo-synthetic-v1-4d8846428c49",
+  "source_sha256": "24ac271be12b41cee66dbf4b369b905e097c7760adb5f59e11a6652a175ba0d8",
+  "validation": {
+    "duplicate_id_count": 0,
+    "duplicate_record_count": 0,
+    "errors": [],
+    "input_rows": 6,
+    "invalid_record_count": 0,
+    "invalid_rows": 0,
+    "issue_counts": {},
+    "malformed_lines": [],
+    "missing_values": {
+      "existing_label": 6
+    },
+    "parsed_rows": 6,
+    "recommended_actions": [],
+    "unknown_label_count": 0,
+    "valid_rows": 6,
+    "warnings": []
+  }
+}

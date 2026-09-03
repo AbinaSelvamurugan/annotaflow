@@ -1,0 +1,7 @@
+record_id,text,existing_label,source,category
+s001,The update was helpful.,,synthetic-fixture,feedback
+s002,I cannot open the page.,,synthetic-fixture,support
+s003,The meeting is scheduled for Tuesday.,,synthetic-fixture,feedback
+s004,The response was quick and clear.,,synthetic-fixture,support
+s005,The app crashed during sign-in.,,synthetic-fixture,support
+s006,The report contains five sections.,,synthetic-fixture,feedback

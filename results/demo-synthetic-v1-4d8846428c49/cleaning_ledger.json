@@ -1,0 +1,74 @@
+[
+  {
+    "exclusion_reason": null,
+    "input_row_key": "1:s001",
+    "operations": [
+      {
+        "operation": "no_change",
+        "reason": "no_cleaning_rule_triggered"
+      }
+    ],
+    "record_id": "s001",
+    "status": "unresolved"
+  },
+  {
+    "exclusion_reason": null,
+    "input_row_key": "2:s002",
+    "operations": [
+      {
+        "operation": "no_change",
+        "reason": "no_cleaning_rule_triggered"
+      }
+    ],
+    "record_id": "s002",
+    "status": "unresolved"
+  },
+  {
+    "exclusion_reason": null,
+    "input_row_key": "3:s003",
+    "operations": [
+      {
+        "operation": "no_change",
+        "reason": "no_cleaning_rule_triggered"
+      }
+    ],
+    "record_id": "s003",
+    "status": "unresolved"
+  },
+  {
+    "exclusion_reason": null,
+    "input_row_key": "4:s004",
+    "operations": [
+      {
+        "operation": "no_change",
+        "reason": "no_cleaning_rule_triggered"
+      }
+    ],
+    "record_id": "s004",
+    "status": "unresolved"
+  },
+  {
+    "exclusion_reason": null,
+    "input_row_key": "5:s005",
+    "operations": [
+      {
+        "operation": "no_change",
+        "reason": "no_cleaning_rule_triggered"
+      }
+    ],
+    "record_id": "s005",
+    "status": "unresolved"
+  },
+  {
+    "exclusion_reason": null,
+    "input_row_key": "6:s006",
+    "operations": [
+      {
+        "operation": "no_change",
+        "reason": "no_cleaning_rule_triggered"
+      }
+    ],
+    "record_id": "s006",
+    "status": "unresolved"
+  }
+]

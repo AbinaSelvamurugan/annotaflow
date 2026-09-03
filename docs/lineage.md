@@ -1,0 +1,9 @@
+# Provenance, Lineage and Access Control
+
+Manifest: `source_path`, immutable `raw_snapshot`, source SHA-256, configuration SHA-256, Python implementation SHA-256, deterministic run ID, dataset/guideline version and frozen Pydantic-validated configuration. The raw snapshot hash is checked whenever stages run. Different source bytes or configuration produces a different run directory.
+
+Per record: `record_id`, `input_row_key` (unique row occurrence), source line, original text/label/source/category, cleaned text, annotation status, final label, cleaning state and exclusion reason. Per annotation: task ID, annotation ID, annotator identifier (if available), timestamp, skipped/invalid/valid status, guideline version and task source mapping. Raw JSON exports are timestamped and stored; decisions use monotone SQLite IDs, reviewer names, timestamps, rationale and guideline version. Reruns use latest decision but can inspect full history; source annotations are never updated by adjudication.
+
+**Protect sensitive datasets:** `audit.sqlite`, `validated_records.json`, raw snapshots, full native/normalized annotation exports, review queue and the dashboard can contain private text or worker identifiers. Do not publish them without consent, minimization and access restrictions. The `resolved.csv` / `resolved.jsonl` subset intentionally removes private `annotator_id`; instead it stores only independent class labels without identities. Configure encryption, backups and retention externally for regulated data; local SQLite is not a production identity/access-control system.
+
+**Version changes:** changing the guideline version changes the run hash. Old decisions stay in the old run and must be examined before any new adjudication in the new run. Historical evidence must not be silently assumed to apply to updated definitions.

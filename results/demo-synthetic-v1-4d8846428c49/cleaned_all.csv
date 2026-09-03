@@ -1,0 +1,7 @@
+record_id,input_row_key,original_text,cleaned_text,original_label,normalized_existing_label,final_label,annotation_status,review_status,source,category,dataset_version,guideline_version,cleaning_status,exclusion_reason,validation_issues,source_line,independent_labels_without_identity
+s001,1:s001,The update was helpful.,The update was helpful.,,,,insufficient_or_conflicting,unresolved,synthetic-fixture,feedback,demo-synthetic-v1,sentiment-v1,unresolved,,[],2,[]
+s002,2:s002,I cannot open the page.,I cannot open the page.,,,,insufficient_or_conflicting,unresolved,synthetic-fixture,support,demo-synthetic-v1,sentiment-v1,unresolved,,[],3,[]
+s003,3:s003,The meeting is scheduled for Tuesday.,The meeting is scheduled for Tuesday.,,,,insufficient_or_conflicting,unresolved,synthetic-fixture,feedback,demo-synthetic-v1,sentiment-v1,unresolved,,[],4,[]
+s004,4:s004,The response was quick and clear.,The response was quick and clear.,,,,insufficient_or_conflicting,unresolved,synthetic-fixture,support,demo-synthetic-v1,sentiment-v1,unresolved,,[],5,[]
+s005,5:s005,The app crashed during sign-in.,The app crashed during sign-in.,,,,insufficient_or_conflicting,unresolved,synthetic-fixture,support,demo-synthetic-v1,sentiment-v1,unresolved,,[],6,[]
+s006,6:s006,The report contains five sections.,The report contains five sections.,,,,insufficient_or_conflicting,unresolved,synthetic-fixture,feedback,demo-synthetic-v1,sentiment-v1,unresolved,,[],7,[]

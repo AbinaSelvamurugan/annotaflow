@@ -1,0 +1,20 @@
+{
+  "adjudicated": 0,
+  "agreed": 0,
+  "counts": {
+    "unresolved": 6
+  },
+  "duplicate_conflicts": 0,
+  "excluded_by_reason": {},
+  "existing_label_comparison_count": 0,
+  "final_label_revision_count": 0,
+  "final_label_revision_rate": null,
+  "missing_final_classes": [
+    "Positive",
+    "Negative",
+    "Neutral"
+  ],
+  "original_label_distribution": {},
+  "resolved_category_distribution": {},
+  "resolved_label_distribution": {}
+}

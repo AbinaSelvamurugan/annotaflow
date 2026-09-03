@@ -1,0 +1,98 @@
+[
+  {
+    "annotation_history": [],
+    "category": "feedback",
+    "existing_label": null,
+    "input_row_key": "1:s001",
+    "latest_decision": null,
+    "reasons": [
+      "missing_independent_pair",
+      "unresolved"
+    ],
+    "record_id": "s001",
+    "review_status": "unresolved",
+    "source": "synthetic-fixture",
+    "task_id": null,
+    "text": "The update was helpful."
+  },
+  {
+    "annotation_history": [],
+    "category": "support",
+    "existing_label": null,
+    "input_row_key": "2:s002",
+    "latest_decision": null,
+    "reasons": [
+      "missing_independent_pair",
+      "unresolved"
+    ],
+    "record_id": "s002",
+    "review_status": "unresolved",
+    "source": "synthetic-fixture",
+    "task_id": null,
+    "text": "I cannot open the page."
+  },
+  {
+    "annotation_history": [],
+    "category": "feedback",
+    "existing_label": null,
+    "input_row_key": "3:s003",
+    "latest_decision": null,
+    "reasons": [
+      "missing_independent_pair",
+      "unresolved"
+    ],
+    "record_id": "s003",
+    "review_status": "unresolved",
+    "source": "synthetic-fixture",
+    "task_id": null,
+    "text": "The meeting is scheduled for Tuesday."
+  },
+  {
+    "annotation_history": [],
+    "category": "support",
+    "existing_label": null,
+    "input_row_key": "4:s004",
+    "latest_decision": null,
+    "reasons": [
+      "missing_independent_pair",
+      "unresolved"
+    ],
+    "record_id": "s004",
+    "review_status": "unresolved",
+    "source": "synthetic-fixture",
+    "task_id": null,
+    "text": "The response was quick and clear."
+  },
+  {
+    "annotation_history": [],
+    "category": "support",
+    "existing_label": null,
+    "input_row_key": "5:s005",
+    "latest_decision": null,
+    "reasons": [
+      "missing_independent_pair",
+      "unresolved"
+    ],
+    "record_id": "s005",
+    "review_status": "unresolved",
+    "source": "synthetic-fixture",
+    "task_id": null,
+    "text": "The app crashed during sign-in."
+  },
+  {
+    "annotation_history": [],
+    "category": "feedback",
+    "existing_label": null,
+    "input_row_key": "6:s006",
+    "latest_decision": null,
+    "reasons": [
+      "missing_independent_pair",
+      "unresolved"
+    ],
+    "record_id": "s006",
+    "review_status": "unresolved",
+    "source": "synthetic-fixture",
+    "task_id": null,
+    "text": "The report contains five sections."
+  }
+]

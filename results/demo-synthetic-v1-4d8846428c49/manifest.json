@@ -1,0 +1,72 @@
+{
+  "config": {
+    "annotation": {
+      "label_descriptions": {
+        "Negative": "Clear unfavorable evaluation or dissatisfaction expressed by the author.",
+        "Neutral": "Factual or mixed statement with no dominant positive/negative evaluation.",
+        "Positive": "Clear favorable evaluation or satisfaction expressed by the author."
+      },
+      "labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ],
+      "project_title": "AnnotaFlow | Text sentiment v1",
+      "require_two_annotators": true,
+      "result_from_name": "sentiment",
+      "result_to_name": "text",
+      "version": "sentiment-v1"
+    },
+    "cleaning": {
+      "duplicate_key": [
+        "text"
+      ],
+      "duplicate_policy": "exclude_identical",
+      "exclude_invalid": true,
+      "exclude_unresolved": false,
+      "label_aliases": {},
+      "normalize_whitespace": true
+    },
+    "dataset": {
+      "allowed_categories": [
+        "feedback",
+        "support"
+      ],
+      "allowed_sources": [],
+      "auto_generate_ids": true,
+      "columns": {
+        "category": "category",
+        "id": "record_id",
+        "label": "existing_label",
+        "source": "source",
+        "text": "text"
+      },
+      "encoding": "utf-8",
+      "format": "auto",
+      "min_text_chars": 3,
+      "path": "data/examples/synthetic_unlabeled.csv",
+      "required": [
+        "text"
+      ],
+      "version": "demo-synthetic-v1"
+    },
+    "quality": {
+      "ci_bootstrap_iterations": 0,
+      "min_group_pairs": 10,
+      "near_duplicate_max_rows": 3000,
+      "near_duplicate_threshold": 0.9,
+      "near_duplicates": true,
+      "review_group_agreement_below": 0.65
+    }
+  },
+  "config_sha256": "804ad4c6c1833112799870b4374dcd1b49f87894d5504712f2705fc1f65cafa5",
+  "created_at": "2026-10-08T05:05:50.120553+00:00",
+  "dataset_version": "demo-synthetic-v1",
+  "guideline_version": "sentiment-v1",
+  "pipeline_version": "0.1.0",
+  "raw_snapshot": "raw/synthetic_unlabeled.csv",
+  "run_id": "demo-synthetic-v1-4d8846428c49",
+  "source_code_sha256": "d468a501452c129e30555c9007de52b3917e8590b8f01538333456161ca9daff",
+  "source_path": "data/examples/synthetic_unlabeled.csv",
+  "source_sha256": "24ac271be12b41cee66dbf4b369b905e097c7760adb5f59e11a6652a175ba0d8"
+}
